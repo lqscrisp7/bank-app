@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bank-app",
-    "slug": "bank-app",
+    "name": "Nexus Bank",
+    "slug": "nexus-bank",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,23 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
+      ],
+      "package": "com.jiaxuan0721.nexusbank"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow Nexus Bank to use Face ID."
+        }
+      ]
+    ]
   }
 }
