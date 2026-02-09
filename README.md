@@ -28,4 +28,4 @@ npx expo start
   - **Demo PIN**: `123456` (You can change it in **/services/authService.ts** in line 49 DEMO_PIN)
 
 ### Fetch Data
-- *Note: There is a small intentional chance of a simulated "network error" to demonstrate error handling UI. You can change the probability in **/services/mockData.ts** in line 75. (default 0.05)*
+- *Note: There is a small intentional chance of a simulated "network error" to demonstrate error handling UI. You can change the probability in **/services/mockData.ts** in line 83. (default 0.05)*
