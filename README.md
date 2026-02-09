@@ -21,7 +21,7 @@ npx expo start
 ## 🔐 Demonstration & Testing
 
 ### Authentication Flow
-- By default, transaction amounts are **masked** (`***.**`).
+- By default, sensitive information such as transaction amounts and account number are **masked** (`***.**`).
 - Tap the **"Reveal All"** button in the header or the **eye icon** next to any transaction to authenticate.
 - If your device/emulator supports biometrics, you will see a system prompt.
 - **PIN Fallback**: If biometrics fail or are not set up, a 6-digit keypad will appear.
