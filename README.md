@@ -25,7 +25,7 @@ npx expo start
 - Tap the **"Reveal All"** button in the header or the **eye icon** next to any transaction to authenticate.
 - If your device/emulator supports biometrics, you will see a system prompt.
 - **PIN Fallback**: If biometrics fail or are not set up, a 6-digit keypad will appear.
-  - **Demo PIN**: `123456` (You can change it in /services/authService.ts in line 49 DEMO_PIN)
+  - **Demo PIN**: `123456` (You can change it in **/services/authService.ts** in line 49 DEMO_PIN)
 
 ### Fetch Data
-- *Note: There is a small intentional chance of a simulated "network error" to demonstrate error handling UI. You can change the probability in /services/mockData.ts in line 75. (default 0.05)*
+- *Note: There is a small intentional chance of a simulated "network error" to demonstrate error handling UI. You can change the probability in **/services/mockData.ts** in line 75. (default 0.05)*
